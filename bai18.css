@@ -1,0 +1,70 @@
+/*Tệp CSS bài 18*/
+.banner {
+border: 10px solid white;
+background: url("https://chronicle.brightspotcdn.com/dims4/default/5d9cc84/2147483647/strip/true/crop/333x222+0+139/resize/840x560!/quality/90/?url=http%3A%2F%2Fchronicle-brightspot.s3.us-east-1.amazonaws.com%2Fe0%2Fd0%2F06e4e125dd9b14ec8e40b9c385a4%2Fpile-of-books.jpg") no-repeat center center;
+background-size:cover;
+font-weight:bold;
+font-size:200%;
+width:100%;
+padding-top:12rem;
+padding-bottom: 12rem;
+text-align:center !important;
+color:yellow !important;
+}
+.slogan {
+background-color: rgb(248,249,250) !important;
+text-align:center !important;
+width:100%;
+padding-right:0.5rem;
+padding-left:3rem;
+padding-top: 7rem;
+padding-bottom:7rem;
+}
+.row {
+display:flex;
+flex-wrap:wrap;
+margin-top: -1;
+max-width:100%;
+padding-right: 3rem;
+padding-left: 3rem;
+}
+.block_3 {
+flex: 0 0 auto;
+width: 33.33333333%;
+}
+.content {
+background-color: white !important;
+text-align:center !important;
+width: 100%;
+padding-right: 0.5rem;
+padding-left: 3rem;
+padding-top:3rem;
+padding-bottom:3rem;
+}
+
+
+#name {
+font-size:300%;
+color:red;
+font-weight:bold;
+margin-left:5rem;
+}
+#cauhoi {
+font-size:200%;
+text-align:center;
+color:darkgreen;
+font-weight:bold;
+margin-top: 3rem;
+margin-bottom:3rem;
+}
+
+.final {
+background:url("https://img.freepik.com/premium-photo/green-paper-texture-background_45402-67.jpg?semt=ais_hybrid") no-repeat center center;
+background-size:cover;
+font-weight:bold;
+color:white;
+text-align:center;
+}
+a:link{color:#ff8080;}
+a:visited{color:#ff1919;}
+a:hover{color:blue;}
